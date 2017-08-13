@@ -1,2 +1,0 @@
-language: python
-script: bash deploy.sh
