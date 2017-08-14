@@ -3,6 +3,4 @@ python:
   - 2.7
 install: pip install -r requirements.txt
 script:
-  - bash deploy.sh
-  - sed -ire 's/#  APP_ENV: development/  APP_ENV: Sandbox/g' app.yaml
-  - cat app.yaml
+  - echo Hello CI
