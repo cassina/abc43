@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 normalistas = [
     'Abel García Hernández',
 
@@ -87,26 +88,125 @@ normalistas = [
     'Saúl Bruno García',
 ]
 
-hashtags = [
-    '#FueElEstado',
-    '#Ayotzinapa',
-    '#GuarderiaABC',
-    '#AyotzinapaVive',
-    '#PaseDeLista1al43',
+abc = [
+    'María Magdalena M',
 
+    'Andrea Nicole F',
+
+    'Emilia Fraijo N',
+
+    'Valeria Muñoz R',
+
+    'Sofía Martínez R',
+
+    'Fátima Sofía M',
+
+    'Dafne Yesenia B',
+
+    'Ruth Nahomi M',
+
+    'Denisse Alejandra F',
+
+    'Lucía Guadalupe C',
+
+    'Jazmín Pamela T',
+
+    'Camila Fuentes C',
+
+    'Ana Paula A',
+
+    'Monserrat G',
+
+    'Pauleth Daniela C',
+
+    'Ariadna Aragón V',
+
+    'María Fernanda M',
+
+    'Yoselín Valentina T',
+
+    'Marian Ximena H',
+
+    'Nayeli Estefania G',
+
+    'Ximena Yanes M',
+
+    'Yeseli Nahomi B',
+
+    'Ian Isaac M',
+
+    'Santiago C',
+
+    'Axel Abraham A',
+
+    'Javier Ángel M',
+
+    'Andrés Alonso G',
+
+    'Carlos Alán S',
+
+    'Martín Raymundo C',
+
+    'Julio César M',
+
+    'Jesús Julián V',
+
+    'Santiago de Jesús Z',
+
+    'Daniel Alberto G',
+
+    'Xiunelth Emmanuel R',
+
+    'Aquiles Dreneth H',
+
+    'Daniel Rafael N',
+
+    'Juan Carlos R',
+
+    'Germán Paúl L',
+
+    'Bryan Alexander M',
+
+    'Jesús Antonio C',
+
+    'Luis Denzel D',
+
+    'Daré Omar V',
+
+    'Jonathan Jesús Reyes',
+
+    'Emily Guadalupe C',
+
+    'Juan Israel F',
+
+    'Jorge Sebastián C',
+
+    'Ximena Álvarez C',
+
+    'Daniela Guadalupe R',
+
+    'Juan Carlos Rascón H',
 ]
 
-abc = []
+hashtags_43 = [
+    '#FueElEstado',
+    '#Ayotzinapa',
+    '#AyotzinapaVive',
+    '#PaseDeLista1al43',
+]
 
+hastags_abc = [
+    '#GuarderiaABC',
+    '#TeExtrañamos'
+    '#NosHacesMuchaFalta',
+    '#Hermosillo',
+    '#Sonora',
+]
 
 responsables = [
     '@epn',
     '@FelipeCalderon'
 ]
-
-# Ayotzi
-lat = 17.553611
-lo = -99.410278
 
 # Status pase de lista 43 normalistas.
 status_43 = '{idx}.- {name}\n' \
