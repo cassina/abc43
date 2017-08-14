@@ -24,4 +24,7 @@ skip_files:
 - ^.*\.pyc$
 
 env_variables:
-  # ADD Consumer and Token Secrets
+  CONSUMER_KEY: ''
+  CONSUMER_SECRET: ''
+  ACCESS_TOKEN: ''
+  ACCESS_TOKEN_SECRET: ''

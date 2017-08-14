@@ -1,4 +1,5 @@
-LIST_43 = [
+# -*- coding: utf-8 -*-
+normalistas = [
     'Abel García Hernández',
 
     'Abelardo Vázquez Peniten',
@@ -86,4 +87,29 @@ LIST_43 = [
     'Saúl Bruno García',
 ]
 
-LIST_ABC = []
+hashtags = [
+    '#FueElEstado',
+    '#Ayotzinapa',
+    '#GuarderiaABC',
+    '#AyotzinapaVive',
+    '#PaseDeLista1al43',
+
+]
+
+abc = []
+
+
+responsables = [
+    '@epn',
+    '@FelipeCalderon'
+]
+
+# Ayotzi
+lat = 17.553611
+lo = -99.410278
+
+# Status pase de lista 43 normalistas.
+status_43 = '{idx}.- {name}\n' \
+            'Presente.\n' \
+            'Aytozinapa no se olvida.\n' \
+
