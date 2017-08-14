@@ -195,7 +195,7 @@ hashtags_43 = [
     '#PaseDeLista1al43',
 ]
 
-hastags_abc = [
+hashtags_abc = [
     '#GuarderiaABC',
     '#TeExtrañamos'
     '#NosHacesMuchaFalta',
@@ -209,7 +209,9 @@ responsables = [
 ]
 
 # Status pase de lista 43 normalistas.
-status_43 = '{idx}.- {name}\n' \
+status_43 = '{idx}.- {name}.\n' \
             'Presente.\n' \
             'Aytozinapa no se olvida.\n' \
+
+status_abc = '{idx}.- {name}\n'
 

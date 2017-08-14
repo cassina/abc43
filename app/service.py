@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
+import time
+
 import oauth2
+from google.appengine.ext import deferred
 
 from .config import *
 
@@ -59,7 +62,7 @@ def format_list(to_format):
     return ''.join(str(a + '\n') for a in to_format)
 
 
-def format_msg(hashtags, mentions, status):
+def format_msg(hashtags, mentions, status, name, idx):
     """
 
     :param hashtags:
@@ -67,7 +70,7 @@ def format_msg(hashtags, mentions, status):
     :return:
     """
     # Agregar menciones hasta tener el producto final
-    msg = status.format(idx='1', name='Yo') + hashtags
+    msg = status.format(idx=idx, name=name) + hashtags
 
     if len(msg) > 140:
         raise ArithmeticError(
@@ -75,5 +78,18 @@ def format_msg(hashtags, mentions, status):
         )
 
     return msg
+
+
+def pasar_lista(lista, status, hashtags, mentions):
+    for idx, name in enumerate(lista):
+        if idx == 5:
+            return 'DONE'
+        msg = format_msg(hashtags=format_list(hashtags),
+                         mentions=format_list(mentions),
+                         status=status,
+                         name=name,
+                         idx=idx + 1)
+        deferred.defer(post_tweet, msg=msg)
+        time.sleep(5)
 
 

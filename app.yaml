@@ -4,6 +4,7 @@ threadsafe: yes
 
 handlers:
 - url: .*
+  login: admin
   script: app.app
 
 libraries:
