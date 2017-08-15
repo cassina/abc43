@@ -1,0 +1,4 @@
+#cron:
+#- description: "Pase de lista 43 normalistas"
+#  url: /_b/cron/pasarLista43
+#  schedule: every day 21:30

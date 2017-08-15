@@ -82,14 +82,12 @@ def format_msg(hashtags, mentions, status, name, idx):
 
 def pasar_lista(lista, status, hashtags, mentions):
     for idx, name in enumerate(lista):
-        if idx == 5:
-            return 'DONE'
         msg = format_msg(hashtags=format_list(hashtags),
                          mentions=format_list(mentions),
                          status=status,
                          name=name,
                          idx=idx + 1)
         deferred.defer(post_tweet, msg=msg)
-        time.sleep(5)
+        time.sleep(1)
 
 
